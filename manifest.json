@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "yt-marker",
+  "version": "1.0",
+  "description": "Save timestamps with notes for the current YouTube video.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "*://*.youtube.com/"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yt-marker@k-um-i"
+    }
+  }
+}
