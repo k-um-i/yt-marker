@@ -13,9 +13,11 @@ If you still want to use the extension it can be loaded by going through the fol
 The extension will only remain loaded until you restart Firefox.
 
 # Usage
-Once you have the extension successfully loaded you can open up any YouTube video and start saving timestamps. \
+Once you have the extension successfully loaded you can open up any YouTube video or livestream and start saving timestamps.
+
 Simply open the extension popup while watching a YouTube video or livestream, add a note for the timestamp if you wish and click on 'Add Timestamp'.
-Any timestamps that you add will be showed inside the popup as well and can be deleted with the 'Delete' button.
+Any timestamps that you add will be shown inside the popup as well and can be deleted with the 'Delete' button.
+
 Time stamps should be stored until the extension is unloaded.
 
 ![image](https://github.com/user-attachments/assets/7d168c02-8a3a-42c4-a9ea-0232b5a56672)
